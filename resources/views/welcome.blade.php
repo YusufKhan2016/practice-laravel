@@ -1,3 +1,6 @@
 <x-layout>
-        <h1 class="text-amber-300 text-9xl">Hello from the home page.</h1>
+    <x-slot:headings>
+        Home Page
+    </x-slot:headings>
+        <h1>Hello from the home page.</h1>
 </x-layout>
