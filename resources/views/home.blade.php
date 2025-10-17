@@ -9,7 +9,7 @@
                 {{ $job['title'] }}
             </strong>
             pays {{ $job['salary'] }} per year.
-        </a href="/jobs/{}"><br>
+        </a><br>
 
     @endforeach
 </x-layout>
