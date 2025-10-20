@@ -10,9 +10,11 @@ Route::get('/', function () {
 });
 
 Route::get('/jobs/{id}', function ($id) {
-
+    $data = Job::find($id);
+    dd($data);
     return view('job', [
         'job' => Job::find($id)
+
     ]);
 });
 
